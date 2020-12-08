@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useLocation } from "react-router-dom";
+import cblogo from '../img/cblogo.png';
+import ReactRoundedImage from "react-rounded-image";
 
 
 const Nav = () => {
@@ -11,7 +13,14 @@ const Nav = () => {
     <StyledNav>
       <h1>
         <Link id="logo" to="/">
-          Cristian
+          <ReactRoundedImage
+            image={cblogo}
+            roundedColor="#321124"
+            imageWidth="120"
+            imageHeight="100"
+            roundedSize="13"
+          />
+          <span>Cristian</span>
         </Link>
       </h1>
       <ul>
