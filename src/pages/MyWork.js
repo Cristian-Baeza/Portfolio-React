@@ -23,7 +23,7 @@ const MyWork = () => {
   const [element2, controls2] = useScroll();
   return (
     <Work
-      style={{ background: "#fff" }}
+      style={{ background: "#1b1b1b" }}
       exit="exit"
       variants={pageAnimation}
       initial="hidden"
@@ -102,17 +102,17 @@ const Frame1 = styled(motion.div)`
   top: 10%;
   width: 100%;
   height: 100vh;
-  background: #fffebf;
+  background: #78523d;
   z-index: 2;
 `;
 const Frame2 = styled(Frame1)`
-  background: #ff8efb;
+  background: #ba7e5d;
 `;
 const Frame3 = styled(Frame1)`
-  background: #8ed2ff;
+  background: #d6870f;
 `;
 const Frame4 = styled(Frame1)`
-  background: #8effa0;
+  background: #e0b336;
 `;
 
 export default MyWork;

@@ -10,7 +10,7 @@ const ContactMe = () => {
       variants={pageAnimation}
       initial="hidden"
       animate="show"
-      style={{ background: "#fff" }}
+      style={{ background: "#1b1b1b" }}
     >
       <Title>
         <Hide>

@@ -17,6 +17,7 @@ const MovieDetail = () => {
   useEffect(() => {
     const currentMovie = movies.filter((stateMovie) => stateMovie.url === url);
     setMovie(currentMovie[0]);
+    console.log(setMovies());
   }, [movies, url]);
 
 
@@ -96,14 +97,14 @@ const AwardStyle = styled.div`
     padding: 2rem 0rem;
   }
 `;
-const ImageDisplay = styled.div`
-  min-height: 50vh;
-  img {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-  }
-`;
+// const ImageDisplay = styled.div`
+//   min-height: 50vh;
+//   img {
+//     width: 100%;
+//     height: 100vh;
+//     object-fit: cover;
+//   }
+// `;
 
 //Award Component
 const Award = ({ title, description }) => {
