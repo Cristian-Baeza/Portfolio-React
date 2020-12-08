@@ -76,6 +76,9 @@ const Services = styled(About)`// this inherits everything in About. and I can a
 const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
+  @media (max-width: 1300px) {
+    justify-content: center;
+  }
 `;
 
 const Card = styled.div`
