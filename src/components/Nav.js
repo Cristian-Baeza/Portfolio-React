@@ -32,7 +32,7 @@ const StyledNav = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 1rem 10rem;
-  background: #282828; // change to giraffe?
+  background: #e0b336; // change to giraffe?
   a {
     color: white;
     text-decoration: none;
