@@ -4,6 +4,7 @@ import diaphragm from "../img/diaphragm.svg";
 import money from "../img/money.svg";
 import teamwork from "../img/teamwork.svg";
 import home2 from "../img/home2.png";
+
 //Styles
 import { About, Description, Image } from "../styles";
 import styled from "styled-components";
@@ -21,41 +22,58 @@ const ServicesSection = () => {
     >
       <Description>
         <h2>
-          High <span>quality</span> websites
+          Tech<span> and</span> Skills
         </h2>
         <Cards>
-          <Card>
-            <div className="icon">
-              <img alt="icon" src={clock} />
-              <h3>Efficient</h3>
-            </div>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </Card>
-          <Card>
-            <div className="icon">
-              <img alt="icon" src={teamwork} />
-              <h3>Teamwork</h3>
-            </div>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </Card>
-          <Card>
-            <div className="icon">
-              <img alt="icon" src={diaphragm} />
-              <h3>Diaphragm</h3>
-            </div>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </Card>
+
           <Card>
             <div className="icon">
               <img alt="icon" src={money} />
-              <h3>Affordable</h3>
+              <h3>Front End</h3>
             </div>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>-JavaScript<br />
+              -HTML<br />
+            -CSS<br />
+            -Boostrap<br />
+            -React/Redux<br />
+            </p>
           </Card>
+
+          <Card>
+            <div className="icon">
+              <img alt="icon" src={diaphragm} />
+              <h3>Backend</h3>
+            </div>
+            <p>-Node.js<br />
+              -Express<br />
+              -Mongo DB<br />
+            </p>
+          </Card>
+
+          <Card>
+            <div className="icon">
+              <img alt="icon" src={teamwork} />
+              <h3>Dev Tools</h3>
+            </div>
+            <p>-Git<br />
+              -GitHub <br /> or "The Hub" as the cool kids call it<br /></p>
+          </Card>
+
+          <Card>
+            <div className="icon">
+              <img alt="icon" src={clock} />
+              <h3>Mobile</h3>
+            </div>
+            <p>-React Native<br />
+              -Android Studio<br />
+            -Expo SDK<br />
+            </p>
+          </Card>
+
         </Cards>
       </Description>
       <Image>
-        <img alt="camera" src={home2} />
+        <img alt="camera" src={home2} /> Me hugging a minion. Not to scale...
       </Image>
     </Services>
   );
@@ -70,6 +88,8 @@ const Services = styled(About)`// this inherits everything in About. and I can a
   p {
     width: 70%;
     padding: 2rem 0rem 4rem 0rem;
+    /* color: #e0b336; */
+    font-weight: bold;
   }
 `;
 
