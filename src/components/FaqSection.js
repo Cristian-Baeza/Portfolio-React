@@ -15,33 +15,33 @@ const FaqSection = () => {
       initial="hidden"
     >
       <h2>
-        Any Questions <span>FAQ</span>
+        Any Questions? <span>FAQ</span>
       </h2>
       <AnimateSharedLayout>
         <Toggle title='How Did I Start?'>
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, neque.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, neque. Mention Blog
           </p>
           </div>
 
         </Toggle>
 
-        <Toggle title='Daily Schedule'>
+        <Toggle title='What are you up to these days?'>
           <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
+
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, neque.
+              Jiujitsu! Working and trying to keep Jeffrey (my giraffe) out of trouble
           </p>
           </div>
         </Toggle>
 
         <Toggle title='Are you single, you delicious hunk of awesomeness?'>
           <div className="answer">
-            <p>No, I am not single, I am in a very happy relationship.</p>
+            <p>No, I am not single, I am in a very happy relationship. With a human. Not my giraffe</p>
             <p>
-              To the guy who keeps sending me pictures of him milking his goats asking me to "come over so I can feed you from this bottle like a baby": Please stop. I already called the Police.
+              To the guy who keeps sending me pictures of him milking his goats asking me to "come over so I can feed you from this bottle like a baby": <br />
+              Please stop. I already called the Police.
           </p>
           </div>
         </Toggle>
