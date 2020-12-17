@@ -73,7 +73,7 @@ const ServicesSection = () => {
         </Cards>
       </Description>
       <Image>
-        <img alt="camera" src={home2} /> Me hugging a minion. Not to scale...
+        <img alt="mugshot" src={home2} /> This is a mugshot of me and Jeffrey after we tried to break out the animals at the zoo. His idea. He doesn't handle tequila well.
       </Image>
     </Services>
   );
