@@ -9,13 +9,13 @@ import theracer2 from "./img/the-racer2.jpg";
 export const MovieState = () => {
   return [
     {
-      title: "The Athlete",
+      title: "The Website",
       mainImg: athlete,
       secondaryImg: athlete2,
       url: "/work/the-athlete",
       awards: [
         {
-          title: "Truly A masterpiece",
+          title: "Truly Mediocre",
           description:
             "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
         },
@@ -55,7 +55,7 @@ export const MovieState = () => {
       ],
     },
     {
-      title: "The Racer",
+      title: "The Music App",
       mainImg: theracer,
       url: "/work/the-racer",
       secondaryImg: theracer2,
