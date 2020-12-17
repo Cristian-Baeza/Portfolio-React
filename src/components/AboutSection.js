@@ -25,7 +25,7 @@ const AboutSection = () => {
           </Hide>
         </motion.div>
         <motion.p variants={fade}>
-          Random text that i will edit later. This test will be the best. You will love it. The best. Best ever.</motion.p>
+          This is a mugshot of me and Jeffrey after we tried to break out the animals at the zoo. His idea. He doesn't handle tequila well.</motion.p>
         <motion.button variants={fade}>
           Contact me
         </motion.button>
