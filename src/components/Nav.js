@@ -12,20 +12,21 @@ const Nav = () => {
   return (
     <StyledNav>
       <h1>
+        <span id='name' style={{ color: 'black' }}>CRISTIAN BAEZA</span>
         <Link id="logo" to="/">
           <ReactRoundedImage
             image={cblogo}
             roundedColor="#321124"
             imageWidth="120"
             imageHeight="100"
-            roundedSize="13"
+            roundedSize="10"
           />
-          <span>Cristian</span>
+          {/* <span style={{ color: 'black' }}>CRISTIAN BAEZA</span> */}
         </Link>
       </h1>
       <ul>
         <li>
-          <Link to="/">1. About Me</Link>
+          <Link to="/">About Me</Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
@@ -33,7 +34,7 @@ const Nav = () => {
           />
         </li>
         <li>
-          <Link to="/work">2. My Work</Link>
+          <Link to="/work">My Work</Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
@@ -41,7 +42,7 @@ const Nav = () => {
           />
         </li>
         <li>
-          <Link to="/contact">3. Contact Me</Link>
+          <Link to="/contact">Contact Me</Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
@@ -64,6 +65,8 @@ const StyledNav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
+  box-shadow: 0 0.5rem 0.5rem #e0b336;
+  
   a {
     color: white;
     text-decoration: none;
@@ -74,8 +77,15 @@ const StyledNav = styled.nav`
   }
   #logo {
     font-size: 1.5rem;
-    font-family: "Lobster", cursive;
+    font-family: Arial, cursive;
     font-weight: lighter;
+    float: left; //
+    margin: 0px 10px 0px 0px;//
+  }
+  #name{
+    display: inline-block;
+    margin: 40px 50px 0px 0px;
+    
   }
   li {
     padding-left: 10rem;
@@ -84,6 +94,9 @@ const StyledNav = styled.nav`
   @media (max-width: 1300px) {
     flex-direction: column;
     padding: 2rem 1rem;
+    #name{
+      display: flex; 
+    }
     #logo {
       display: inline-block;
       margin: 1rem;
