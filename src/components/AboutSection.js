@@ -29,8 +29,8 @@ const AboutSection = () => {
           <br />
           Always striving to keep a positive attitude, strong work ethic and a sense of humor. <br />
           Have a look around! Check out my projects and my website. If anything, I hope you at least get a good chuckle from it
+        </motion.p>
 
-</motion.p>
         <motion.button variants={fade}>
           Contact me
         </motion.button>

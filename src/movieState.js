@@ -10,6 +10,7 @@ export const MovieState = () => {
   return [
     {
       title: "The Website",
+      website: "https://www.google.com",
       mainImg: athlete,
       secondaryImg: athlete2,
       url: "/work/the-athlete",
@@ -33,6 +34,7 @@ export const MovieState = () => {
     },
     {
       title: "Good Times",
+      website: "https://www.google.com",
       mainImg: goodtimes,
       url: "/work/good-times",
       secondaryImg: goodtimes2,
@@ -56,6 +58,7 @@ export const MovieState = () => {
     },
     {
       title: "The Music App",
+      website: "https://cristianbaeza-music-app.netlify.app/",
       mainImg: theracer,
       url: "/work/the-racer",
       secondaryImg: theracer2,

@@ -30,7 +30,9 @@ const MovieDetail = () => {
           animate="show"
         >
           <HeadLine>
-            <h2>{movie.title}</h2>
+            <h2>{movie.title}
+              <button id='button'><a href={movie.website} target="_blank">See it in action!</a> </button>
+            </h2>
             <img src={movie.mainImg} alt="movie" />
           </HeadLine>
           <Awards>
@@ -63,11 +65,37 @@ const HeadLine = styled.div`
     top: 10%;
     left: 50%;
     transform: translate(-50%, -10%);
+    
   }
   img {
     width: 100%;
     height: 70vh;
     object-fit: cover;
+  }
+  a{
+    color: white;
+   text-decoration: none;
+  }
+  #button{
+    margin-left: 3rem;
+    position: absolute;
+    top: 10%;
+    left: 110%;
+
+    font-weight: bold;
+    font-size: 1.1.rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 3px solid #e0b336;
+    background: transparent;
+    color: white;
+    transition: all 0.5s ease;
+    font-family: 'Inter', sans-serif;
+
+    &:hover{
+        background-color: #78523d;
+        color: white;
+    }
   }
 `;
 const Awards = styled.div`

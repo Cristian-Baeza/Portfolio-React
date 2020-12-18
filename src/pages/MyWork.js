@@ -37,7 +37,7 @@ const MyWork = () => {
       </motion.div>
 
       <Movie>
-        <motion.h2 variants={fade} style={{ color: "white" }}>The Athlete</motion.h2>
+        <motion.h2 variants={fade} style={{ color: "white" }}>The Gym Website</motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/the-athlete">
           <Hide>
