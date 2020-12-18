@@ -40,7 +40,7 @@ export const MovieState = () => {
       secondaryImg: goodtimes2,
       awards: [
         {
-          title: "Truly A masterpiece",
+          title: "About",
           description:
             "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
         },
@@ -64,19 +64,19 @@ export const MovieState = () => {
       secondaryImg: theracer2,
       awards: [
         {
-          title: "Truly A masterpiece",
+          title: "About",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "Built using: HTML, CSS/Styled Components, React (Hooks), React Router, Framer Motion and it is Mobile Responsive"
         },
         {
-          title: "Fresh look on a brutal sport.",
+          title: "What the best critics are saying",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Absolutely amazing. Cristian's app inspired me to make my next album.“ -Armin Van Buuren",
         },
         {
-          title: "It’s okay lmao.",
+          title: "What the not so cool critics are saying",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Stop trying to contact me and leave me alone before I call the police.“ -Rihanna",
         },
       ],
     },
