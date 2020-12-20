@@ -13,6 +13,7 @@ const Nav = () => {
     <StyledNav>
       <h1>
         <span id='name' style={{ color: 'black' }}>CRISTIAN BAEZA</span>
+        <span id='name' style={{ color: '#78523d' }}>The Giraffe Coder</span>
         <Link id="logo" to="/">
           <ReactRoundedImage
             image={cblogo}
