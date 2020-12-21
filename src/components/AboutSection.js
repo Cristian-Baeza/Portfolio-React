@@ -25,7 +25,7 @@ const AboutSection = () => {
           </Hide> */}
         </motion.div>
         <motion.p variants={fade}>
-          Originally from Mexico City, I moved to 'Merica when I was 17 and then later joined the Marine Corps. I am currently a full time student at the University of Utah and working at a software company as a sales representative. I am beyond grateful to have been awarded a scholarship to Code Platoon's Software Engineering bootcamp starting in 2021.<br />
+          Originally from Mexico City, I moved to the US of A when I was 17 and then later joined the Marine Corps. I am currently a full time student at the University of Utah and working at a software company as a sales representative. I am beyond grateful to have been awarded a scholarship to Code Platoon's Software Engineering bootcamp starting in 2021.<br />
           <br />
           Always striving to keep a positive attitude, strong work ethic and a sense of humor. <br />
           Have a look around! Check out my projects and my website. If anything, I hope you at least get a good chuckle from it.
