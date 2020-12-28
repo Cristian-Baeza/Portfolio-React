@@ -39,7 +39,7 @@ const MyWork = () => {
       <Movie>
         <motion.h2 variants={fade} style={{ color: "white" }}>The Gym Website</motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
-        <Link to="/work/the-athlete">
+        <Link to="/work/gym-website">
           <Hide>
             <motion.img variants={photoAnim} src={athlete} alt="athlete" />
           </Hide>
@@ -47,17 +47,17 @@ const MyWork = () => {
       </Movie>
 
       <Movie ref={element} variants={fade} animate={controls} initial="hidden">
-        <h2 style={{ color: "white" }}>Music App</h2>
+        <h2 style={{ color: "white" }}>The Music App</h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
-        <Link to="/work/the-racer">
+        <Link to="/work/the-musicapp">
           <img src={theracer} alt="theracer" />
         </Link>
       </Movie>
 
       <Movie ref={element2} variants={fade} animate={controls2} initial="hidden">
-        <h2 style={{ color: "white" }}>Good Timessssss</h2>
+        <h2 style={{ color: "white" }}>The Portfolio Website</h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
-        <Link to="/work/good-times">
+        <Link to="/work/portfolio-website">
           <img src={goodtimes} alt="goodtimes" />
         </Link>
       </Movie>

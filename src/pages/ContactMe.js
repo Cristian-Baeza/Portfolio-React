@@ -57,7 +57,7 @@ const ContactMe = () => {
                 <a href="https://github.com/Cristian-Baeza" target="_blank" rel='noreferrer'>Ma Github</a>
               </button>
               <ReactTooltip id="githubTip" place="right" type='light' effect="solid">
-                My pad. My crib. My homespace. Where I kick it. Where da squad chills. Where da magic happens. My heart and soul. The HQ of any developer, GitHub is where my friends and I get together to create the next big App. It's Tinder for senior citizens. It will even have a Life Alert button.
+                My pad. My crib. Where da squad Githubs and chills. The HQ of any developer, GitHub is where my friends and I get together to create the next big App. It's Tinder for senior citizens. Life Alert button included.
                 Also, I have no friends, please follow me..... I love you
               </ReactTooltip>
             </h2>

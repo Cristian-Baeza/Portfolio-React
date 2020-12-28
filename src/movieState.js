@@ -9,50 +9,50 @@ import theracer2 from "./img/the-racer2.jpg";
 export const MovieState = () => {
   return [
     {
-      title: "The Website",
-      website: "https://www.google.com",
+      title: "The Gym Website",
+      website: "http://10thplanetsaltlakecity.com/",
       mainImg: athlete,
       secondaryImg: athlete2,
-      url: "/work/the-athlete",
+      url: "/work/gym-website",
       awards: [
+        {
+          title: "About",
+          description:
+            "Built with: HTML, CSS, Reactstrap, React, Class Based Components, React-Router. Mobile Responsive.",
+        },
         {
           title: "Truly Mediocre",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Meh. It's aight”- The Gym Owner",
         },
         {
-          title: "Fresh look on a brutal sport.",
+          title: "Inspiring Professionals Everywhere",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
-        },
-        {
-          title: "It’s okay lmao.",
-          description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“Looking at Cristian's website made me relapse...again” - Jon 'Bones' Jones, UFC Fighter ",
         },
       ],
     },
     {
-      title: "Good Times",
-      website: "https://www.google.com",
+      title: "Portfolio Website (You're on it!)",
+      website: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       mainImg: goodtimes,
-      url: "/work/good-times",
+      url: "/work/portfolio-website",
       secondaryImg: goodtimes2,
       awards: [
         {
           title: "About",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "Built Using: HTML, CSS/Styled Components, React, React-Router, Framer Motion. Mobile Responsive! ",
         },
         {
-          title: "Fresh look on a brutal sport.",
+          title: "Are you a curious creature?",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "If your're already on my portfolio website then where does the button take you? Hmmm maybe click it and find out...",
         },
         {
-          title: "It’s okay lmao.",
+          title: "Ryan Reynolds Approves",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "“As an entrepreneur, business owner, superstar and national treasure myself, I still am unable to reach the heights Cristian has achieved. I actually asked him to be the sperm donor for my baby.“ - Ryan Reynolds ",
         },
       ],
     },
@@ -60,13 +60,13 @@ export const MovieState = () => {
       title: "The Music App",
       website: "https://cristianbaeza-music-app.netlify.app/",
       mainImg: theracer,
-      url: "/work/the-racer",
+      url: "/work/the-musicapp",
       secondaryImg: theracer2,
       awards: [
         {
           title: "About",
           description:
-            "Built using: HTML, CSS/Styled Components, React (Hooks), React Router, Framer Motion and it is Mobile Responsive"
+            "Built using: HTML, CSS/Styled Components, React (Hooks), React-Router, Framer Motion and it is Mobile Responsive!"
         },
         {
           title: "What the best critics are saying",
