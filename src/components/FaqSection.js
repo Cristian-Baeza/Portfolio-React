@@ -21,8 +21,31 @@ const FaqSection = () => {
         <Toggle title='How Did I Start?'>
           <div className="answer">
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, neque. Mention Blog
-          </p>
+              Twas the day after Covid began and silence roamed the house, <br />
+              unfulfilled by my work, my mind full of doubts. <br />
+
+              I shall be productive! said my inner voice.<br />
+              Investing in toilet paper seems like a good choice.<br />
+
+              Maybe create a show about tigers in zoos?<br />
+              No thats crazy, that's so much money I would lose.<br />
+
+              Learn a programming language? That sounds like fun.<br />
+              Wait. What? There's much more than one?<br />
+
+              Learning C++ seems better than going for a run.<br />
+              Aaaaand I'm tired of crying, on to the next one.<br />
+
+              Ruby seems simple! I can fit it in my head.<br />
+              Oh, but the internet says the language is dead.<br />
+
+              JavaScript seems ok, I hope its not like Java.<br />
+              Hey! I actually don't feel like im sinking in lava.<br />
+
+              This isn't so bad, it's actually quite fun!<br />
+              So much more but my journey has just begun.<br />
+
+            </p>
           </div>
 
         </Toggle>
@@ -31,17 +54,18 @@ const FaqSection = () => {
           <div className="answer">
 
             <p>
-              Jiujitsu! Working and trying to keep Jeffrey (my giraffe) out of trouble
+              I have been in sponge mode for the last 6-9 months, learning and growing as much as I can. When I'm not trying to OnlyFans fund my software development career (that's a joke... or is it?) I am working, training jiujitsu and trying to keep Jeffrey (my giraffe) out of trouble.
+              
           </p>
           </div>
         </Toggle>
 
         <Toggle title='Are you single, you delicious hunk of awesomeness?'>
           <div className="answer">
-            <p>No, I am not single, I am in a very happy relationship. With a human. Not my giraffe</p>
+            <p>No, I am not single, I am in a very happy relationship. With a human. Not my giraffe.</p>
             <p>
-              To the guy who keeps sending me pictures of him milking his goats asking me to "come over so I can feed you from this bottle like a baby": <br />
-              Please stop. I already called the Police.
+              To the trucker who keeps sending me pictures of him rubbing his belly: <br />
+              Please stop Chuck. I already called the Police.
           </p>
           </div>
         </Toggle>
