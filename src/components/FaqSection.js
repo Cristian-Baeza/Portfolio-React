@@ -21,23 +21,23 @@ const FaqSection = () => {
         <Toggle title='How Did I Start?'>
           <div className="answer">
             <p>
-              Twas the day after Covid began and silence roamed the house, <br />
+              Twas the day after Covid and silence roamed the house, <br />
               unfulfilled by my work, my mind full of doubts. <br />
 
               I shall be productive! said my inner voice.<br />
               Investing in toilet paper seems like a good choice.<br />
 
               Maybe create a show about tigers in zoos?<br />
-              No thats crazy, that's so much money I would lose.<br />
+              No thats crazy, so much money I would lose.<br />
 
               Learn a programming language? That sounds like fun.<br />
               Wait. What? There's much more than one?<br />
 
-              Learning C++ seems better than going for a run.<br />
+              Learning C seems better than going for a run.<br />
               Aaaaand I'm tired of crying, on to the next one.<br />
 
-              Ruby seems simple! I can fit it in my head.<br />
-              Oh, but the internet says the language is dead.<br />
+              Ruby seems simple! It fits in my head.<br />
+              Oh, the internet says the language is dead.<br />
 
               JavaScript seems ok, I hope its not like Java.<br />
               Hey! I actually don't feel like im sinking in lava.<br />
