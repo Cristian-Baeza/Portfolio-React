@@ -42,7 +42,7 @@ export const MovieState = () => {
         {
           title: "About",
           description:
-            "Built Using: HTML, CSS/Styled Components, React, React-Router, Framer Motion. Mobile Responsive! ",
+            "Built Using: HTML, CSS/Styled Components, React, React-Router and Framer Motion",
         },
         {
           title: "Are you a curious creature?",

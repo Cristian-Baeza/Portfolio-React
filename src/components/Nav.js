@@ -91,10 +91,10 @@ const StyledNav = styled.nav`
     
   }
   li {
-    padding-left: 10rem;
+    padding-left: 3rem;
     position: relative;
   }
-  @media (max-width: 800px) {
+  @media (max-width: 800px) { // this is what happens under 800px
     flex-direction: column;
     padding: 2rem 1rem;
     #name{
@@ -121,8 +121,8 @@ const Line = styled(motion.div)`
   width: 0%;
   position: absolute;
   bottom: -80%;
-  left: 60%;
-  @media (max-width: 1300px) {
+  left: 40%;
+  @media (max-width: 1150px) {
     left: 0%;
   }
 `;
