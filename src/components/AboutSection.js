@@ -25,7 +25,7 @@ const AboutSection = () => {
           </Hide> */}
         </motion.div>
         <motion.p variants={fade}>
-          Originally from Mexico City, I moved to the USA when I was 17 and then later joined the Marine Corps. I am currently a full time student at the University of Utah and working at a software company as a sales representative. I am beyond grateful to have been awarded a scholarship to Code Platoon's Software Engineering bootcamp starting in 2021.<br />
+          Originally from Mexico City, I moved to the USA when I was 17 and then later joined the Marine Corps. I am currently a full time student at the University of Utah and working at a software company as a sales rep. I am beyond grateful to have been awarded a scholarship to Code Platoon's Software Engineering bootcamp starting in 2021.<br />
           <br />
           Always striving to keep a positive attitude, strong work ethic and a sense of humor. <br />
           Have a look around! Check out my projects and my website. I hope you at least get a good chuckle from it.
@@ -39,7 +39,7 @@ const AboutSection = () => {
 
       </Description>
       <Image>
-        <motion.img variants={photoAnim} src={home1} alt="wierdo hugging a minion" />
+        <motion.img variants={photoAnim} src={home1} alt="photo of me" />
       </Image>
       <Wave />
     </About>
