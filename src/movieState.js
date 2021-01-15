@@ -52,7 +52,7 @@ export const MovieState = () => {
         {
           title: "Ryan Reynolds Approves",
           description:
-            "“As an entrepreneur, business owner, superstar and national treasure myself, I am still unable to reach the heights Cristian has achieved. I actually asked him to be the sperm donor for my baby.“ - Ryan Reynolds ",
+            "“As an entrepreneur, superstar and national treasure I am still unable to reach the heights Cristian has achieved.“ - Ryan Reynolds",
         },
       ],
     },

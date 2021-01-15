@@ -54,7 +54,7 @@ const FaqSection = () => {
           <div className="answer">
 
             <p>
-              I have been in sponge mode for the last 6-9 months, learning and growing as much as I can. When I'm not trying to OnlyFans fund my software development career (that's a joke... or is it?) I am working, training jiujitsu and trying to keep Jeffrey (my giraffe) out of trouble.
+              I have been in sponge mode for the last 6-9 months, learning and growing as much as I can. I've been working on a lot of personal projects and also trying to get a better grasp on Redux. When I'm not trying to OnlyFans fund my software development career (that's a joke... or is it?) I am working, teaching jiujitsu and trying to keep Jeffrey (my giraffe) out of trouble.
               
           </p>
           </div>
