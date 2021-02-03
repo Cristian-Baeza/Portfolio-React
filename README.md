@@ -1,1 +1,1 @@
-Check it out at giraffecoder.com
+Check it out at: <br/> giraffecoder.com
