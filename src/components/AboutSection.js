@@ -39,7 +39,7 @@ const AboutSection = () => {
 
       </Description>
       <Image>
-        <motion.img variants={photoAnim} src={home1} alt="photo of me" />
+        <motion.img variants={photoAnim} src={"https://ik.imagekit.io/0jty0e7po/home1_174ewKyr4.png"} alt="photo of me" />
       </Image>
       <Wave />
     </About>
