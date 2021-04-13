@@ -4,9 +4,12 @@ import Toggle from './Toggle';
 import { AnimateSharedLayout } from "framer-motion";
 import { useScroll } from "./useScroll";
 import { scrollReveal } from "../animation";
+import { Link } from 'react-router-dom';
 
 const FaqSection = () => {
   const [element, controls] = useScroll();
+
+
   return (
     <Faq
       variants={scrollReveal}
@@ -54,30 +57,18 @@ const FaqSection = () => {
           <div className="answer">
 
             <p>
-              I have been in sponge mode for the last 6-9 months, learning and growing as much as I can. I've been working on a lot of personal projects and also trying to get a better grasp on Redux. When I'm not trying to OnlyFans fund my software development career (that's a joke... or is it?) I am working, teaching jiujitsu and trying to keep Jeffrey (my giraffe) out of trouble.
-              
+              I have been in sponge mode for the last 6-9 months, learning and growing as much as I can. Currently attending a full stack bootcamp for veterans called Code Platoon. Currently working on some projects, teaching jiujitsu part-time and trying to keep Jeffrey, my giraffe, out of trouble.
           </p>
           </div>
         </Toggle>
 
-        <Toggle title='Are you single, you delicious hunk of awesomeness?'>
+        <Toggle title='You seem pretty cool, can I contact you?'>
           <div className="answer">
-            <p>No, I am not single, I am in a very happy relationship. With a human. Not my giraffe.</p>
-            <p>
-              To the trucker who keeps sending me pictures of him rubbing his belly: <br />
-              Please stop Chuck. I already called the Police.
-          </p>
+            <p>Of course! I am more than happy to talk about software, jiujitsu, basketball, coffee or discuss collaboration opportunities. You can find my contact info <Link className='link' to='/contact'>here</Link></p>
+
           </div>
         </Toggle>
 
-        {/* <Toggle title='Products I Offer'>
-          <div className="answer">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, neque.
-          </p>
-          </div>
-        </Toggle> */}
       </AnimateSharedLayout>
     </Faq>
   );
@@ -108,6 +99,10 @@ const Faq = styled(About)`
     p {
       padding: 1rem 0rem;
     }
+  }
+  .link {
+    color: #e0b336;
+    font-size: 18px;
   }
 `;
 
