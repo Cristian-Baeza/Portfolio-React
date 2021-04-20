@@ -41,7 +41,7 @@ const MyWork = () => {
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/gym-website">
           <Hide>
-            <motion.img variants={photoAnim} src={athlete} alt="athlete" />
+            <motion.img variants={photoAnim} src='https://ik.imagekit.io/0jty0e7po/bg2_7Z-hg-MaJ.png' alt="athlete" />
           </Hide>
         </Link>
       </Movie>

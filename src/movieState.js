@@ -11,7 +11,7 @@ export const MovieState = () => {
     {
       title: "The Gym Website",
       website: "http://10thplanetsaltlakecity.com/",
-      mainImg: athlete,
+      mainImg: 'https://ik.imagekit.io/0jty0e7po/Screen_Shot_2021-04-19_at_11.11.14_PM_q5HQphf2_.png',
       secondaryImg: athlete2,
       url: "/work/gym-website",
       awards: [
