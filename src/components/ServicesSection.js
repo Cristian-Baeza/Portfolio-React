@@ -32,10 +32,11 @@ const ServicesSection = () => {
               <h3>Front End</h3>
             </div>
             <p>-JavaScript<br />
+              -React/Redux<br />
               -HTML<br />
-            -CSS<br />
-            -Boostrap<br />
-            -React/Redux<br />
+              -CSS<br />
+              -Boostrap<br />
+              -Styled Components<br />
             </p>
           </Card>
 
@@ -44,8 +45,11 @@ const ServicesSection = () => {
               <img alt="icon" src={diaphragm} />
               <h3>Backend</h3>
             </div>
-            <p>-Node.js<br />
+            <p>
+              -Python<br />
+              -Django<br />
               -Express<br />
+              -PostgreSQL<br />
               -Mongo DB<br />
             </p>
           </Card>
@@ -55,8 +59,13 @@ const ServicesSection = () => {
               <img alt="icon" src={teamwork} />
               <h3>Dev Tools</h3>
             </div>
-            <p>-Git<br />
-              -GitHub <br /> or "The Hub" as the cool kids call it<br /></p>
+            <p>
+              -Git<br />
+              -Heroku<br />
+              -AWS Certified<br />
+              -SAFe Certified<br />
+              -GitHub <br /> (or "The Hub" as the cool kids call it)<br />
+            </p>
           </Card>
 
           <Card>

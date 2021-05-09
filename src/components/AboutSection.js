@@ -24,9 +24,8 @@ const AboutSection = () => {
           </Hide> */}
         </motion.div>
         <motion.p variants={fade}>
-          Originally from Mexico City, I moved to the USA when I was 17 and then later joined the Marine Corps. I am currently a full time student at the University of Utah and working at a software company as a sales rep. I am beyond grateful to have been awarded a scholarship to Code Platoon's Software Engineering bootcamp starting in 2021.<br />
+          Originally from 🇲🇽 Mexico City, I am a Marine Corps veteran and a recent graduate from Code Platoon's full-stack software engineer program. Currently pursuing my love for software development and teaching jiujitsu. Always striving to keep a positive attitude, strong work ethic and a sense of humor.<br />
           <br />
-          Always striving to keep a positive attitude, strong work ethic and a sense of humor. <br />
           Have a look around! Check out my projects and my website. I hope you at least get a good chuckle from it.
         </motion.p>
 

@@ -64,7 +64,7 @@ const FaqSection = () => {
 
         <Toggle title='You seem pretty cool, can I contact you?'>
           <div className="answer">
-            <p>Of course! I am more than happy to talk about software, jiujitsu, basketball, coffee or discuss collaboration opportunities. You can find my contact info <Link className='link' to='/contact'>here</Link></p>
+            <p>Of course! I am more than happy to talk about my experiences in software. More than glad to help anyone and talk about bootcamps or starting a journey in software development. I owe where I am today to all the people that helped me when I got started and I believe it is important to pay it forward. You can find my contact info <Link className='link' to='/contact'>HERE</Link></p>
 
           </div>
         </Toggle>

@@ -37,6 +37,16 @@ const MyWork = () => {
       </motion.div>
 
       <Movie>
+        <motion.h2 variants={fade} style={{ color: "white" }}>The FullStack Project</motion.h2>
+        <motion.div variants={lineAnim} className="line"></motion.div>
+        <Link to="/work/moonbase">
+          <Hide>
+            <motion.img variants={photoAnim} src='https://ik.imagekit.io/0jty0e7po/Screen_Shot_2021-05-01_at_6.25.42_PM_TwgOG_Rlk.png' alt="moonbase" />
+          </Hide>
+        </Link>
+      </Movie>
+
+      <Movie>
         <motion.h2 variants={fade} style={{ color: "white" }}>The Gym Website</motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/gym-website">
@@ -61,8 +71,16 @@ const MyWork = () => {
           <img src={goodtimes} alt="goodtimes" />
         </Link>
       </Movie>
+
+
+
+
+
+
+
       <ScrollTop />
     </Work>
+
   );
 };
 

@@ -31,7 +31,7 @@ const MovieDetail = () => {
         >
           <HeadLine>
             <h2>{movie.title}
-              <button id='button'><a href={movie.website} target="_blank">See it in action!</a> </button>
+              <button id='button'><a href={movie.website} target="_blank" rel="noreferrer">See it in action!</a> </button>
             </h2>
             <img src={movie.mainImg} alt="movie" />
           </HeadLine>
