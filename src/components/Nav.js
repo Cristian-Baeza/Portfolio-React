@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     <StyledNav>
       <h1>
-        <span id='name' style={{ color: 'black' }}>CRISTIAN BAEZA</span>
+        <span id='name' style={{ color: 'black' }} >CRISTIAN BAEZA</span>
         <span id='name' style={{ color: '#78523d' }}>The Giraffe Coder</span>
         <Link id="logo" to="/">
           <ReactRoundedImage
@@ -98,7 +98,7 @@ const StyledNav = styled.nav`
     flex-direction: column;
     padding: 2rem 1rem;
     #name{
-      display: flex; 
+      display: none; 
     }
     #logo {
       display: inline-block;
